@@ -34,10 +34,10 @@ def print_animal_info(animal: Animal) -> None:
 
 
 def main():
-    logger.debug('this is a debug message')
-    logger.info('this is an information message')
-    logger.warning('this is a warning message')
-    logger.error('this is an error message')
+    # logger.debug('this is a debug message')
+    # logger.info('this is an information message')
+    # logger.warning('this is a warning message')
+    # logger.error('this is an error message')
     logger.critical('this is a critical message')
 
     # print_animal_info(Animal())  # object of abstract class
